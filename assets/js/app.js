@@ -7,7 +7,6 @@ const ul = document.getElementsByClassName("list-header")[0];
 // Navbar Scroll
 
 function scrollFunction(){
-    console.log("asdas");
     if(window.scrollY > 0){
         header.id = "scroll"
     }else{
