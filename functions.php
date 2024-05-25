@@ -44,49 +44,6 @@ add_action('get_components', function() {
 
 // Links CSS/JS
 
-add_action('get_theme_styles_css', function() {
-    $path = get_template_directory_uri() . "/assets/css/";
-    // $path = "./wp-content/assets/css/";
-    $nameStyle = [
-        'index',
-        'reset',
-        'responsive-laptop',
-        'responsive-tablet',
-        'responsive-mobile'
-    ];
-    $deps = [];
-    $version = null;
-    $extension = ".css";
 
-    foreach($nameStyle as $handle){
-        $pathFile = $path . $handle . $extension;
-        wp_enqueue_style($handle, $pathFile , $deps, $version, 'all');
-        // wp_enqueue_style($handle);
-    }
-
-});
-
-add_action('get_theme_styles_js', function() {
-    $path = get_template_directory_uri() . "/assets/js/";
-    $nameScript = [
-        'app'
-    ];
-    $deps = [];
-    $version = null;
-    $extension = ".js";
-    
-    foreach($nameScript as $handle){
-        $pathFile = $path . $handle . $extension;
-        wp_enqueue_script($handle, $pathFile, $deps, $version, 'all');
-        // wp_enqueue_script($handle);
-    }
-});
 
 // Img request
-
-add_action('url_image', function() {
-    $url = get_template_directory_uri();
-    $url .= "/assets/img";
-
-    echo $url;
-});
