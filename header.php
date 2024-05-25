@@ -2,21 +2,23 @@
 <html <?php language_attributes(); ?>>
 
 <head>
+    <?php do_action("get_theme_styles_css") ?>
+    <?php do_action("get_theme_styles_js") ?>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body onscroll="scrollFunction()" <?php body_class(); ?>>
     <?php wp_body_open(); ?>
     
     <header class="header">
         <nav>
             <div class="img">
-                <img src="./img/secao_1/secao-01-BrandPersona_Marca-03 1.png" alt="Brand Persona">
+                <img src="<?= do_action("url_image")?>/secao_1/secao-01-BrandPersona_Marca-03 1.png" alt="Brand Persona">
                 <div class="responsive">
-                    <img src="./img/secao_1/bar.png" alt="bar" id="bar">
-                    <img src="./img/secao_1/cross-button.png" alt="cross button" id="close-bar" class="none">
+                    <img src="<?= do_action("url_image")?>/secao_1/bar.png" alt="bar" id="bar">
+                    <img src="<?= do_action("url_image")?>/secao_1/cross-button.png" alt="cross button" id="close-bar" class="none">
                 </div>
             </div>
             <ul class="list-header none">
@@ -43,8 +45,8 @@
         
                 <div class="logos">
                     <p>Um produto:</p>
-                    <img src="./img/secao_1/secao-01-pyxys.png" alt="PYXYS">
-                    <img src="./img/secao_1/secao-01-ilustraria.png" alt="secao-01-ilustraria">
+                    <img src="<?= do_action("url_image")?>/secao_1/secao-01-pyxys.png" alt="PYXYS">
+                    <img src="<?= do_action("url_image")?>/secao_1/secao-01-ilustraria.png" alt="secao-01-ilustraria">
                 </div>
             </div>
         </div>

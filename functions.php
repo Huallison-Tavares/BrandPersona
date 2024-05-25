@@ -19,20 +19,21 @@ add_action('after_setup_theme', function () {
 
 add_action('get_components', function() {
     $path = "components/";
+    $slug = "secao";
     $components = [
-        '02' => 'secao',
-        '03' => 'secao',
-        '04' => 'secao',
-        '05' => 'secao',
-        '06' => 'secao',
-        '07' => 'secao',
-        '08' => 'secao'
+        '02',
+        '03',
+        '04',
+        '05',
+        '06',
+        '07',
+        '08'
     ];
-
+    
     get_header();
-
-    foreach($components as $name => $slug){
-        $path .= $slug;
+    
+    $path .= $slug;
+    foreach($components as $name){
         get_template_part($path, $name);
     }
 
@@ -43,6 +44,49 @@ add_action('get_components', function() {
 
 // Links CSS/JS
 
+add_action('get_theme_styles_css', function() {
+    $path = get_template_directory_uri() . "/assets/css/";
+    // $path = "./wp-content/assets/css/";
+    $nameStyle = [
+        'index',
+        'reset',
+        'responsive-laptop',
+        'responsive-tablet',
+        'responsive-mobile'
+    ];
+    $deps = [];
+    $version = false;
+    $extension = ".css";
 
+    foreach($nameStyle as $handle){
+        $pathFile = $path . $handle . $extension;
+        wp_enqueue_style($handle, $pathFile , $deps, $version);
+        // wp_enqueue_style($handle);
+    }
+
+});
+
+add_action('get_theme_styles_js', function() {
+    $path = get_template_directory_uri() . "/assets/js/";
+    $nameScript = [
+        'app'
+    ];
+    $deps = [];
+    $version = false;
+    $extension = ".js";
+    
+    foreach($nameScript as $handle){
+        $pathFile = $path . $handle . $extension;
+        wp_enqueue_script($handle, $pathFile, $deps, '6.5.5', true);
+        // wp_enqueue_script($handle);
+    }
+});
 
 // Img request
+
+add_action('url_image', function() {
+    $url = get_template_directory_uri();
+    $url .= "/assets/img/";
+
+    echo $url;
+});

@@ -1,0 +1,29 @@
+:root{
+    --color-primary:#ffffff;
+    --color-secundary:#ff0000;
+    --color-tertiary: #F9F9F9;
+    --text-color-primary: #ffffff;
+    --text-color-secundary: #000000;
+    --text-color-tertiary: #404044;
+    --text-paragraph:#727272;
+    --color-h6:#E33F3F;
+    --button-color:#ffffff;
+}
+ 
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}

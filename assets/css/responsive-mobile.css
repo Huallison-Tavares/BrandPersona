@@ -1,0 +1,125 @@
+@media (max-width: 500px){
+    /* Seção 01 */
+
+    .secao-01{
+        width: 100vw;
+    }
+    
+    .secao-01::before{
+        width: 630px;
+        overflow-x: hidden;
+        margin-left: -70vw;
+        opacity: 0.5;
+    }
+
+    .secao-01 > .content > .box-text{
+        width: 90vw;
+    }
+
+    .secao-01 > .content > .box-text > p{
+        font-size: 13px;
+    }
+
+    .secao-01 > .content > .box-text > h1{
+        font-size: 20px;
+        width: 90vw;
+    }
+
+    .secao-01 > .content > .box-text > .logos{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .secao-01 > .content > .box-text > .logos > p{
+        text-align: start;
+        width:100vw;
+    }
+
+    /* Seção 2 */
+
+    .secao-02.combo > .content > .boxs-secao > .box{
+        width: 48%;
+    }
+
+    .secao-02.influencia > .content > .cards > .card{
+        width: 80vw;
+    }
+
+    /* Seção 3 */
+
+    
+    .secao-03 > .content > .img-person > img{
+        width: 80vw;
+    }
+
+    .secao-03 > .content > .text-content > .box-content > .box{
+        width: 100%;
+    }
+
+    /* Seção 04 */
+
+    .secao-04{
+        padding: 40px 0;
+    }
+
+    .secao-04 > .content > .version > .box-text{
+        flex-direction: column;
+    }
+
+    .secao-04 > .content > .version > .box-text > img{
+        width: 100vw;
+        height: 100vw;
+    }
+
+    /* Seção 05 */
+
+    .secao-05{
+        padding: 40px 0;
+    }
+
+    .secao-05 > .content > .content-line{
+        justify-content: center;
+    }
+
+    /* Seção 07 */
+
+    .secao-07 > .content > table > tbody > tr > td{
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .secao-07 > .content > table > tbody > tr > td > .img{
+        padding: 10px 0px;
+    }
+
+    /* Seção  09 */
+
+    .secao-09{
+        height: max-content;
+        padding: 40px 0px;
+    }
+
+    .secao-09::before{
+        width: 100vw;
+        height: 100vw;
+        margin-left: -5vw;
+        margin-bottom: -30vw;
+        transform: scale(1.3);
+    }
+
+}
+
+
+@media (max-width: 400px){
+    .secao-01::before{
+        width: 630px;
+        margin-left: -100vw;
+        opacity: 0.5;
+    }
+    
+    .secao-09::before{
+        background:none;
+        width: 0px;
+    }
+
+}

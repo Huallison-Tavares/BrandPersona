@@ -1,0 +1,260 @@
+@media (max-width: 1000px){
+    /* Elements */
+
+    .secao, header, footer{
+        display:flex;
+        justify-content:center ;
+        align-items: center;
+        width: 100vw;
+        height: max-content;
+    }
+
+    h6{
+        font-size: 18px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    /* Header */
+
+    header{
+        z-index: 12;
+    }
+
+    /* Seção 01 */
+
+    .secao-01{
+        height: 690px;
+    }
+
+    .secao-01::before{
+        margin-left: -28vw;
+    }
+
+    .secao-01 > .content{
+        justify-content: flex-start;
+        text-align: flex-start;
+    }
+
+    /* Seção 2 */
+
+    .secao-02.combo{
+        height: max-content;
+        padding: 40px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secao-02.combo > .content,
+    .secao-02.combo > .person{
+        width: 90vw;
+    }
+
+    .secao-02.combo > .content > .boxs-secao > .box{
+        height: max-content;
+    }
+
+    .secao-02.combo > .person{
+        height: 500px;
+    }
+
+    .secao-02.influencia{
+        height: max-content;
+        padding: 40px 0;
+    }
+
+    .secao-02.influencia > .content{
+        width: 90vw;
+    }
+
+    .secao-02.influencia > .content > .cards{
+        flex-wrap: wrap;
+    }
+
+    .secao-02.influencia > .content > .cards > .card{
+        width: 40vw;
+    }
+
+    .secao-02.influencia > .content > .cards > .card > h1{
+        font-size: 60px;
+    }
+
+    /* Seção 3 */
+
+    .secao-03{
+        display: flex;
+        padding: 40px 0;
+    }
+    
+    .secao-03 > .content{
+        flex-direction: column;
+        height: max-content;
+        align-items: center;
+    }
+
+    .secao-03 > .content > .img-person{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .secao-03 > .content > .text-content{
+        width: 100%;
+    }
+
+    .secao-03 > .content > .img-person > img{
+        width: 60vw;
+    }
+
+    .secao-03 > .content > .text-content > .box-content > .box > h1{
+        font-size: 17px;
+    }
+
+    /* Seção 04 */
+
+    .secao-04 > .content{
+        height: max-content;
+    }
+
+    .secao-04 > .content > .version{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secao-04 > .content > .version > .box-text > img{
+        width: 400px;
+        height: 400px;
+    }
+
+    /* Seção 05 */
+
+    .secao-05{
+        height: max-content;
+        box-sizing: content-box;
+        padding-bottom: 50px;
+    }
+
+    .secao-05 > .content{
+        height: max-content;
+    }
+
+    .secao-05 > .content > .content-line{
+        flex-wrap: wrap;
+        height: max-content;
+        background: none;
+    }
+
+    .secao-05 > .content > .content-line > .box{
+        width: 45%;
+    }
+
+    /* Seção 6 */
+
+    .secao-06{
+        padding: 40px 0;
+    }
+
+    .secao-06 > .content{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .secao-06 > .content > img{
+        width: 80vw;
+        height: 65vw;
+    }
+
+    .secao-06 > .content > .text-content{
+        width: 90vw;
+    }
+
+    /* Seção 07 */
+
+    .secao-07{
+        padding: 40px 0;
+    }
+
+    .secao-07 > .content{
+        width: 90vw;
+        height: max-content;
+    }
+
+    .secao-07 > .content > .text-content{
+        flex-direction: column;
+    }
+
+    .secao-07 > .content > .text-content > .img-box > img{
+        width: 90vw;
+        height: 40vw;
+
+    }
+
+    .secao-07 > .content > .text-content > .text-box > p > span{
+        font-size: 14px;
+    }
+
+    .secao-07 > .content > table > thead > tr{
+        width: 45vw;
+    }
+
+    .secao-07 > .content > table > tbody > tr{
+        width: 45vw;
+    }
+
+    .secao-07 > .content > table > tbody > tr > td > .img{
+        width: max-content;
+    }
+
+    /* Seção 8 */
+
+    .secao-08{
+        padding: 40px 0;
+    }
+
+    .secao-08 > .content > .people{
+        flex-direction: column;
+    }
+
+    .secao-08 > .content > .people > .text-content{
+        width: 100%;
+    }
+
+    .secao-08 > .content > .people > .text-content > h2{
+        font-size: 15px;
+    }
+
+    .secao-08 > .content > .people > .text-content > p{
+        font-size: 17px;
+    }
+
+    /* Seção  09 */
+
+    .secao-09{
+        height: 455px;
+    }
+
+    .secao-09::before{
+        height: 455px;
+        left: -90px;
+        opacity: 0.5;
+    }
+
+    .secao-09 > .content > .submit > .inputs{
+        justify-content: flex-start;
+        gap: 10px;
+    }
+
+    .secao-09 > .content > .submit > .inputs > input{
+        width: 260px;
+    }
+
+    .secao-09 > .content > .submit > .inputs > .button{
+        width: max-content;
+    }
+
+}

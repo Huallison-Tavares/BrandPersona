@@ -1,0 +1,300 @@
+@media (max-width: 1260px){
+    /* Elements */
+    h6{
+        font-size: 14px;
+    }
+
+    h1{
+        font-size: 26px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    /* Header */
+
+    header{
+        height:max-content;
+    }
+
+    header#scroll{
+        height: max-content;
+    }
+
+    header > nav{
+        width: 100vw;
+        flex-direction: column;
+
+    }
+    
+    header > nav > .img{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+        padding: 0 30px;
+    }
+    
+    header > nav > .img > .responsive{
+        display: flex;
+    }
+
+    header > nav > .img > .responsive > img{
+        width: 30px;
+        height: 30px;
+    }
+
+    header > nav > .img > .responsive > img.none{
+        display: none;
+    }
+
+    header > nav > ul{
+        background-color: red;
+        flex-direction: column;
+        width: 100vw;
+        gap: 0px;
+        box-shadow: rgb(0 0 0 / 28%) 0px 12px 20px 0px;
+    }
+    
+    header > nav > ul.none{
+        display: none;
+
+    }
+
+    header > nav > ul > li{
+        margin: 10px 0px;
+    }
+
+    /* Seção 01 */
+
+    .secao-01::before{
+        opacity: 0.6;
+    }
+
+    /* Seção 2 */
+
+    .secao-02.combo{
+        gap: 40px;
+    }
+
+    .secao-02.combo > .content,
+    .secao-02.combo > .person{
+        width: 45vw;
+    }
+
+    .secao-02.combo > .content > .boxs-secao > .box > h2{
+        font-size: 16px;
+    }
+
+    .secao-02.combo > .content > .boxs-secao > .box > p{
+        font-size: 14px;
+    }
+
+    .secao-02.combo > .person{
+        height: 400px;
+    }
+
+    .secao-02.combo > .person > .element-person > .box{
+        width: 264px;
+        height: 88px;
+        font-size: 13px;
+    }
+
+    .secao-02.influencia > .content > .cards{
+        gap: 15px;
+    }
+
+    .secao-02.influencia > .content > .cards > .card{
+        width: 20vw;
+        height: 280px;
+    }
+
+    .secao-02.influencia > .content > .cards > .card > h1{
+        font-size: 40px;
+    }
+
+    /* Seção 3 */
+
+    .secao-03 > .content{
+        width: 90vw;
+        gap: 40px;
+    }
+
+    .secao-03 > .content > .img-person{
+        display: flex;
+        align-items: center;
+    }
+
+    .secao-03 > .content > .img-person > img{
+        width: 400px;
+    }
+
+    .secao-03 > .content > .text-content > .box-content > .box > h1{
+        font-size: 14px;
+    }
+
+    /* Seção 04 */
+
+    .secao-04 > .content{
+        width: 90vw;
+    }
+
+    .secao-04 > .content > .version > .box-text > img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .secao-04 > .content > .version > .box-text > .text-content > .text > img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .secao-04 > .content > .version > .box-text > .text-content > h1{
+        font-size: 18px;
+    }
+
+    .secao-04 > .content > .version > .box-text > .text-content > .text > p{
+        font-size: 14px;
+    }
+
+    /* Seção 05 */
+
+    .secao-05 > .content{
+        width: 90vw;
+    }
+
+    .secao-05 > .content > .content-line{
+        background-size: 90vw;
+    }
+
+    .secao-05 > .content > .content-line > .box{
+        text-align: center;
+        width: 18vw;
+    }
+
+    .secao-05 > .content > .content-line > .box > img{
+        width: 200px;
+    }
+
+    .secao-05 > .content > .content-line > .box > h1{
+        font-size: 16px;
+    }
+
+    .secao-05 > .content > .content-line > .box > p{
+        font-size: 14px;
+    }
+
+    /* Seção 6 */
+
+    .secao-06 > .content{
+        width: 90vw;
+    }
+
+    .secao-06 > .content > img{
+        width: 380px;
+        height: 300px;
+    }
+
+    .secao-06 > .content > .text-content > .box-text > .box{
+        gap: 10px;
+    }
+
+    .secao-06 > .content > .text-content > .box-text > .box > img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .secao-06 > .content > .text-content > .box-text > .box > .text > h1{
+        font-size: 18px;
+    }
+
+    /* Seção 07 */
+
+    .secao-07 > .content > .text-content > .img-box > img{
+        width: 341px;
+        height: 131px;
+
+    }
+
+    .secao-07 > .content > .text-content > .text-box > p > span{
+        font-size: 14px;
+    }
+    .secao-07 > .content > table{
+        margin-top: 20px;
+    }
+
+    .secao-07 > .content > table > thead > tr > th{
+        font-size: 14px;
+    }
+
+    .secao-07 > .content > table > tbody > tr > td > .img{
+        width: 26%;
+    }
+
+    /* Seção 8 */
+
+    .secao-08 > .content{
+        width: 90vw;
+    }
+
+    /* Seção  09 */
+
+    .secao-09{
+        padding: 0 20px;
+    }
+
+    .secao-09::before{
+        width: 440px;
+        height: 400px;
+        left: -50px;
+    }
+
+    .secao-09 > .content{
+        width: 75vw;
+    }
+
+    .secao-09 > .content > .submit > .inputs > input{
+        width: 240px;
+    }
+
+    .secao-09 > .content > .submit > .inputs > input::placeholder{
+        color: var(--text-color-primary);
+    }
+
+    .secao-09 > .content > .submit > .inputs > input:focus{
+        box-shadow: 0 0 0 0;
+        outline: 0;
+
+    }
+
+    .secao-09 > .content > .submit > .button{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .secao-09 > .content > .submit > .button > button{
+        width: 216px;
+        height: 50px;
+        border-radius: 10px;
+        color: var(--button-color);
+        background-color: #2ECC71;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* Footer */
+
+    footer{
+        height: 50px;
+        background-color: #d13232;
+        color: var(--text-color-primary);
+    }
+
+    footer > p{
+        text-align: center;
+        font-family: Mukta;
+        font-size: 15px;
+        color: var(--text-color-primary);
+    }
+}
