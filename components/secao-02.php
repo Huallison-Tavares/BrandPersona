@@ -7,22 +7,22 @@
 
         <div class="boxs-secao">
             <div class="box">
-                <img src="./img/secao_2/secao-02-biometria.svg" alt="">
+                <img src="<?= do_action("url_image")?>/secao_2/secao-02-biometria.svg" alt="">
                 <h2>Dar vida à sua marca</h2>
                 <p>Ter um influenciador virtual multiplica meios de  interação com o consumidor</p>
             </div>
             <div class="box">
-                <img src="./img/secao_2/secao-02-coracao.svg" alt="">
+                <img src="<?= do_action("url_image")?>/secao_2/secao-02-coracao.svg" alt="">
                 <h2>Gerar identificação</h2>
                 <p>O cliente se reconhece na persona 3D e se relaciona com ela afetivamente</p>
             </div>
             <div class="box">
-                <img src="./img/secao_2/secao-02-pensar.svg" alt="">
+                <img src="<?= do_action("url_image")?>/secao_2/secao-02-pensar.svg" alt="">
                 <h2>Falar a língua do cliente </h2>
                 <p>O diálogo da marca com o usuário se torna mais personalizado e acessível</p>
             </div>
             <div class="box">
-                <img src="./img/secao_2/secao-02-diamante.svg" alt="">
+                <img src="<?= do_action("url_image")?>/secao_2/secao-02-diamante.svg" alt="">
                 <h2>Personificar valores</h2>
                 <p>A persona 3D é construída sob medida com o que é relevante para a empresa </p>
             </div>
@@ -31,13 +31,13 @@
     <div class="person">
         <div class="element-person">
             <div class="box">
-                <img src="./img/secao_2/secao-02-grafico.svg" alt="grafico">
+                <img src="<?= do_action("url_image")?>/secao_2/secao-02-grafico.svg" alt="grafico">
                 <h4>O engajamento de personas virtuais é 4x maior</h4>
             </div>
         </div>
         <div class="element-person">
             <div class="box">
-                <img src="./img/secao_2/secao-02-pessoas.svg" alt="pessoas">
+                <img src="<?= do_action("url_image")?>/secao_2/secao-02-pessoas.svg" alt="pessoas">
                 <h4>RELACIONAMENTO COM SEU PÚBLICO</h4>
             </div>
         </div>
