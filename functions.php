@@ -13,3 +13,36 @@ add_action('after_setup_theme', function () {
         'menu_mobile' => 'Menu Mobile'
     ));
 });
+
+
+// Juntar Arquivos
+
+add_action('get_components', function() {
+    $path = "components/";
+    $components = [
+        '02' => 'secao',
+        '03' => 'secao',
+        '04' => 'secao',
+        '05' => 'secao',
+        '06' => 'secao',
+        '07' => 'secao',
+        '08' => 'secao'
+    ];
+
+    get_header();
+
+    foreach($components as $name => $slug){
+        $path .= $slug;
+        get_template_part($path, $name);
+    }
+
+    get_footer();
+
+});
+
+
+// Links CSS/JS
+
+
+
+// Img request

@@ -1,6 +1,3 @@
-<?php get_header(); ?>
+<!-- Index -->
 
-<!-- Home page content here -->
-<?= "🔥 It's work! Home page 👌"; ?>
-
-<?php get_footer(); ?>
+<?php do_action("get_components");?>
