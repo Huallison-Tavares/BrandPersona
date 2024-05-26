@@ -1,0 +1,65 @@
+body, 
+body > main,
+body > main > .error{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+    background-color: rgb(255, 224, 224);
+}
+
+body > main{
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+img{
+    width: 15vw;
+}
+
+img[alt="4"]{
+    filter: drop-shadow(9px 6px 2px rgba(255, 197, 197, 0.824));
+}
+
+main > .box-text > h1{
+    font-size: 3vw;
+    text-align: center;
+    color: #ff9696;
+    letter-spacing: 5px;
+    filter:drop-shadow(3px 0px 2px rgb(255, 163, 163)) ;
+}
+
+main > .button{
+    display: flex;
+    justify-content: center;
+}
+
+main > .button > button{
+    cursor: pointer;
+    background-color: transparent;
+    color: #fe7a7a;
+    font-weight: 700;
+    font-size: 1vw;
+    width: 197px;
+    height: 50px;
+    border-radius: 14px;
+    border: 1px rgba(0, 0, 0, 0.363) solid;
+    /* opacity: 0px; */
+    transition: all 0.5s;
+}
+
+main > .button > button:hover{
+    background-color: #fe7a7a;
+    color: white;
+}
+
+main > .button > button > a{
+    color: unset;
+    text-decoration: none;
+}

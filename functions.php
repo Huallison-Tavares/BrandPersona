@@ -46,7 +46,6 @@ add_action('get_components', function() {
 
 add_action('get_theme_styles_css', function() {
     $path = get_template_directory_uri() . "/assets/css/";
-    // $path = "./wp-content/assets/css/";
     $nameStyle = [
         'index',
         'reset',
@@ -61,7 +60,6 @@ add_action('get_theme_styles_css', function() {
     foreach($nameStyle as $handle){
         $pathFile = $path . $handle . $extension;
         wp_enqueue_style($handle, $pathFile , $deps, $version, 'all');
-        // wp_enqueue_style($handle);
     }
 
 });
@@ -78,11 +76,10 @@ add_action('get_theme_styles_js', function() {
     foreach($nameScript as $handle){
         $pathFile = $path . $handle . $extension;
         wp_enqueue_script($handle, $pathFile, $deps, $version, 'all');
-        // wp_enqueue_script($handle);
     }
 });
 
-// Img request
+// Img url
 
 add_action('url_image', function() {
     $url = get_template_directory_uri();
