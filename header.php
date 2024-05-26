@@ -45,8 +45,8 @@
         
                 <div class="logos">
                     <p>Um produto:</p>
-                    <img src="<?= do_action("url_image")?>/secao_1/secao-01-pyxys.png" alt="PYXYS">
-                    <img src="<?= do_action("url_image")?>/secao_1/secao-01-ilustraria.png" alt="secao-01-ilustraria">
+                    <img src="<?= do_action("url_image")?>/secao_1/secao-01-pyxys.png" alt="Logo da PYXYS">
+                    <img src="<?= do_action("url_image")?>/secao_1/secao-01-ilustraria.png" alt="Logo da Ilustraria">
                 </div>
             </div>
         </div>

@@ -28,7 +28,7 @@ img[alt="4"]{
 }
 
 main > .box-text > h1{
-    font-size: 3vw;
+    font-size: 40px;
     text-align: center;
     color: #ff9696;
     letter-spacing: 5px;
@@ -45,12 +45,11 @@ main > .button > button{
     background-color: transparent;
     color: #fe7a7a;
     font-weight: 700;
-    font-size: 1vw;
+    font-size: 15px;
     width: 197px;
     height: 50px;
     border-radius: 14px;
     border: 1px rgba(0, 0, 0, 0.363) solid;
-    /* opacity: 0px; */
     transition: all 0.5s;
 }
 
@@ -63,3 +62,35 @@ main > .button > button > a{
     color: unset;
     text-decoration: none;
 }
+
+@media (max-width: 1000px){
+    img{
+        width: 30vw;
+    }
+    
+    main > .box-text > h1{
+        font-size: 30px;
+    }
+    
+    main > .button > button{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 400px){
+    img{
+        width: 30vw;
+    }
+    
+    main > .box-text > h1{
+        font-size: 20px;
+    }
+    
+    main > .button > button{
+        font-size: 10px;
+        width: 120px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+

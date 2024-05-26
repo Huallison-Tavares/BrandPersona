@@ -1,5 +1,3 @@
-<!-- Seção 07 -->
-
 <section id="secao-07" class="secao-07 secao">
     <div class="content">
         <div class="text-content">

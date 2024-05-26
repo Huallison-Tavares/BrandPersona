@@ -1,5 +1,3 @@
-<!-- Seção 08 -->
-
 <section id="secao-08" class="secao-08 secao">
     <div class="content">
         <h6>a soma perfeita</h6>

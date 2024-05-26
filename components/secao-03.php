@@ -1,5 +1,3 @@
-<!-- Seção 3 -->
-
 <section id="secao-03" class="secao-03 secao">
     <div class="content">
         <div class="img-person">

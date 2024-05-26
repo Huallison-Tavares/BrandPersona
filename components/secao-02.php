@@ -1,4 +1,3 @@
-<!-- Seção 2 -->
 <section id="secao-02" class="secao-02 secao combo" id="#">
     <div class="content">
         <h6>um novo mercado</h6>
@@ -7,12 +6,12 @@
 
         <div class="boxs-secao">
             <div class="box">
-                <img src="<?= do_action("url_image")?>/secao_2/secao-02-biometria.svg" alt="">
+                <img src="<?= do_action("url_image")?>/secao_2/secao-02-biometria.svg" alt="Biometria">
                 <h2>Dar vida à sua marca</h2>
                 <p>Ter um influenciador virtual multiplica meios de  interação com o consumidor</p>
             </div>
             <div class="box">
-                <img src="<?= do_action("url_image")?>/secao_2/secao-02-coracao.svg" alt="">
+                <img src="<?= do_action("url_image")?>/secao_2/secao-02-coracao.svg" alt="Coração" width="19" height="19">
                 <h2>Gerar identificação</h2>
                 <p>O cliente se reconhece na persona 3D e se relaciona com ela afetivamente</p>
             </div>

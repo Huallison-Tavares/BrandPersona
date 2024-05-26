@@ -1,5 +1,3 @@
-<!-- Seção 05 -->
-
 <section id="secao-05" class="secao-05 secao">
     <div class="content">
         <h6>um processo completo para obter resultados </h6>

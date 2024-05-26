@@ -54,7 +54,7 @@ add_action('get_theme_styles_css', function() {
         'responsive-mobile'
     ];
     $deps = [];
-    $version = null;
+    $version = false;
     $extension = ".css";
 
     foreach($nameStyle as $handle){
@@ -70,7 +70,7 @@ add_action('get_theme_styles_js', function() {
         'app'
     ];
     $deps = [];
-    $version = null;
+    $version = false;
     $extension = ".js";
     
     foreach($nameScript as $handle){

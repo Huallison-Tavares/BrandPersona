@@ -1,5 +1,3 @@
-<!-- Seção 04 -->
-
 <section id="secao-04" class="secao-04 secao">
     <div class="content">
         <h6>2 versões para performar melhor em cada ambiente digital  </h6>
