@@ -795,6 +795,7 @@ header > nav > ul > li a:hover{
 /* Footer */
 
 footer{
+    z-index: 12;
     height: 50px;
     background-color: #d13232;
     color: var(--text-color-primary);
