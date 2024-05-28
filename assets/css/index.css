@@ -11,21 +11,21 @@ h6{
     font-family: Mukta;
     font-size: 18px;
     font-weight: 400;
-    color: var(--color-h6);
+    color: var(--color-light-red);
 }
 
 h1{
     font-family: Prompt;
     font-size: 32px;
     font-weight: 700;
-    color: var(--text-color-tertiary);
+    color: var(--color-grey);
 }
 
 p{
     font-family: Catamaran;
     font-weight: 400;
     font-size: 18px;
-    color: var(--text-paragraph);
+    color: var(--color-grey2);
 }
 
 /* Header */
@@ -39,7 +39,7 @@ header{
 }
 
 header#scroll{
-    background-color: var(--color-h6);
+    background-color: var(--color-light-red);
     height: 70px;
     transition: all 0.3s;
 }
@@ -77,7 +77,7 @@ header > nav > ul > li{
 }
 
 header > nav > ul > li > a{
-    color: var(--text-color-primary);
+    color: var(--color-white);
     font-family: Prompt;
     font-weight: 400;
     font-size: 12px;
@@ -122,7 +122,7 @@ header > nav > ul > li a:hover{
 
 .secao-01 > .content > .box-text{
     width: 600px;
-    color: var(--text-color-primary);
+    color: var(--color-white);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -131,7 +131,7 @@ header > nav > ul > li a:hover{
 
 .secao-01 > .content > .box-text > p{
     font-family: Mukta;
-    color: var(--text-color-primary);
+    color: var(--color-white);
 }
 
 .secao-01 > .content > .box-text > p:nth-child(1){
@@ -141,24 +141,24 @@ header > nav > ul > li a:hover{
 .secao-01 > .content > .box-text > h1{
     font-size: 45px;
     width: 578px;
-    color: var(--text-color-primary);
+    color: var(--color-white);
 }
 
 .secao-01 > .content > .box-text > button{
     background-color: transparent;
-    color: var(--text-color-primary);
+    color: var(--color-white);
     cursor: pointer;
     width: 197px;
     height: 50px;
     border-radius: 10px;
-    border: 1px var(--button-color) solid;
+    border: 1px var(--color-white) solid;
     /* opacity: 0px; */
 
 }
 
 .secao-01 > .content > .box-text > button:hover{
     transition: all 0.5s;
-    background-color: var(--button-color);
+    background-color: var(--color-white);
     color: var(--text-color-secundary);
 }
 
@@ -179,7 +179,7 @@ header > nav > ul > li a:hover{
 
 .secao-01 > .content > .box-text > .logos > p{
     text-align: center;
-    color: var(--color-primary);
+    color: var(--color-white);
 }
 
 /* Seção 2 */
@@ -195,11 +195,11 @@ header > nav > ul > li a:hover{
 }
 
 .secao-02.combo > .content > p{
-    color: #777777;
+    color: var(--color-grey2);
 }
 
 .secao-02 > .content > h6{
-    color: #ff0000;
+    color: var(--color-red);
 }
 
 .secao-02.combo > .content > .boxs-secao{
@@ -219,7 +219,7 @@ header > nav > ul > li a:hover{
     box-sizing: content-box;
     padding: 10px;
     border-radius: 50%;
-    background-color: #E33F3F33;
+    background-color: var(--color-mid-light-red);
 }
 .secao-02.combo > .content > .boxs-secao > .box > h2{
     font-family: Prompt;
@@ -229,7 +229,7 @@ header > nav > ul > li a:hover{
 
 .secao-02.combo > .content > .boxs-secao > .box > p{
     font-size: 16px;
-    color: #777777;
+    color: var(--color-grey2);
 
 }
 
@@ -249,12 +249,12 @@ header > nav > ul > li a:hover{
 
 .secao-02.combo > .person > .element-person:nth-child(1){
     align-items: end;
-    color: #494949;
+    color: var(--color-light-black);
 }
 
 .secao-02.combo > .person > .element-person:nth-child(2){
     justify-content: end;
-    color: var(--text-color-primary);
+    color: var(--color-white);
 }
 
 .secao-02.combo > .person > .element-person > .box{
@@ -280,25 +280,25 @@ header > nav > ul > li a:hover{
 }
 
 .secao-02.combo > .person > .element-person:nth-child(2) > .box > img{
-    background-color: #e59696;;
+    background-color: var(--color-pink);
 }
 
 .secao-02.combo > .person > .element-person:nth-child(1) > .box > img{
-    background-color: #DCF2ED;
+    background-color: var(--color-light-gray);
 }
 
 .secao-02.combo > .person > .element-person:nth-child(1) > .box{
-    background-color: var(--color-primary);
+    background-color: var(--color-white);
 }
 
 .secao-02.combo > .person > .element-person:nth-child(2) > .box{
-    background-color: var(--color-h6);
+    background-color: var(--color-light-red);
 
 }
 
 .secao-02.influencia{
     height: 600px;
-    background-color: var(--color-tertiary);
+    background-color: var(--color-white2);
 }
 
 .secao-02.influencia > .content > h1{
@@ -313,11 +313,11 @@ header > nav > ul > li a:hover{
 }
 
 .secao-02.influencia > .content > .cards > .card{
-    background-color: #494949;
+    background-color: var(--color-light-black);
     width: 20vw;
     height: 329px;
     border-radius: 24px;
-    color: #DCF2ED;
+    color: var(--color-light-gray);
     padding-left: 15px;
 
     display: flex;
@@ -327,17 +327,17 @@ header > nav > ul > li a:hover{
 
 .secao-02.influencia > .content > .cards > .card > h1{
     font-size: 60px;
-    color: #DCF2ED;
+    color: var(--color-light-gray);
 }
 
 .secao-02.influencia > .content > .cards > .card > .text-card > h3{
     font-size: 18px;
-    color: #DCF2ED;
+    color: var(--color-light-gray);
 }
 
 .secao-02.influencia > .content > .cards > .card > .text-card > p{
     font-size: 15px;
-    color: #DCF2ED;
+    color: var(--color-light-gray);
 }
 
 /* Seção 3 */
@@ -366,7 +366,7 @@ header > nav > ul > li a:hover{
 }
 
 .secao-03 > .content > .text-content > h1{
-    color: var(--text-color-tertiary);
+    color: var(--color-grey);
 }
 
 .secao-03 > .content > .text-content > .box-content{
@@ -380,7 +380,7 @@ header > nav > ul > li a:hover{
     box-sizing: content-box;
     padding: 10px;
     border-radius: 50%;
-    background-color: #DCF2ED;
+    background-color: var(--color-light-gray);
     border: 1px;
 }
 
@@ -398,7 +398,7 @@ header > nav > ul > li a:hover{
 
 .secao-03 > .content > .text-content > .box-content > .box > h1{
     font-size: 18px;
-    color: var(--text-color-tertiary);
+    color: var(--color-grey);
 }
 
 
@@ -418,7 +418,7 @@ header > nav > ul > li a:hover{
 }
 
 .secao-04 > .content > h1{
-    color: var(--text-color-tertiary);
+    color: var(--color-grey);
 }
 
 .secao-04 > .content > .version{
@@ -454,12 +454,12 @@ header > nav > ul > li a:hover{
 
 .secao-04 > .content > .version > .box-text > .text-content > h1{
     font-size: 24px;
-    color: var(--text-color-tertiary);
+    color: var(--color-grey);
 }
 
 .secao-04 > .content > .version > .box-text > .text-content > .text > p{
     font-size: 16px;
-    color: #777777;
+    color: var(--color-grey2);
 }
 
 /* Seção 05 */
@@ -476,7 +476,7 @@ header > nav > ul > li a:hover{
 }
 
 .secao-05 > .content > h1{
-    color: var(--text-color-tertiary);
+    color: var(--color-grey);
 }
 
 .secao-05 > .content > .content-line{
@@ -496,7 +496,7 @@ header > nav > ul > li a:hover{
 
 .secao-05 > .content > .content-line > .box > h1{
     font-size: 22px;
-    color: var(--text-color-tertiary);
+    color: var(--color-grey);
 }
 
 
@@ -504,11 +504,11 @@ header > nav > ul > li a:hover{
     font-family: Catamaran;
     font-size: 15px;
     font-weight: 400;
-    color: var(--text-paragraph);
+    color: var(--color-grey2);
 }
 
 .secao-05 > .content > .content-line > .box > p > span{
-    color: var(--text-color-tertiary);
+    color: var(--color-grey);
     font-weight: 700;
 }
 
@@ -534,7 +534,7 @@ header > nav > ul > li a:hover{
 }
 
 .secao-06 > .content > .text-content > h1{
-    color: var(--text-color-tertiary);
+    color: var(--color-grey);
 }
 
 .secao-06 > .content > .text-content > .box-text > .box{
@@ -551,7 +551,7 @@ header > nav > ul > li a:hover{
 
 .secao-06 > .content > .text-content > .box-text > .box > .text > h1{
     font-size: 24px;
-    color: var(--text-color-tertiary);
+    color: var(--color-grey);
 }
 
 /* Seção 07 */
@@ -579,18 +579,18 @@ header > nav > ul > li a:hover{
 }
 
 .secao-07 > .content > .text-content > .text-box > h1{
-    color: var(--text-color-tertiary);
+    color: var(--color-grey);
 }
 
 .secao-07 > .content > .text-content > .text-box > p{
-    color: #777777;
+    color: var(--color-grey2);
 }
 
 .secao-07 > .content > .text-content > .text-box > p > span{
     font-family: Catamaran;
     font-size: 18px;
     font-weight: 900;
-    color: var(--text-color-tertiary);
+    color: var(--color-grey);
 }
 
 .secao-07 > .content > table > thead{
@@ -638,7 +638,7 @@ header > nav > ul > li a:hover{
 
 .secao-08{
     height: 870px;
-    background-color: var(--color-tertiary);
+    background-color: var(--color-white2);
 }
 
 .secao-08 > .content{
@@ -649,7 +649,7 @@ header > nav > ul > li a:hover{
 }
 
 .secao-08 > .content > h1{
-    color: var(--text-color-tertiary);
+    color: var(--color-grey);
 }
 
 .secao-08 > .content > p{
@@ -679,7 +679,7 @@ header > nav > ul > li a:hover{
     font-family: Catamaran;
     font-weight: 700;
     font-size: 14px;
-    color: var(--text-color-tertiary);
+    color: var(--color-grey);
 }
 
 .secao-08 > .content > .people > .text-content > p{
@@ -691,7 +691,7 @@ header > nav > ul > li a:hover{
     background: url("http://brandpersona.test/wp-content/themes/nautilus/assets/img/secao_8/aspas.png") no-repeat;
     font-family: Catamaran;
     font-size: 18px;
-    color: var(--text-color-tertiary);
+    color: var(--color-grey);
 }
 
 /* Seção  09 */
@@ -720,19 +720,19 @@ header > nav > ul > li a:hover{
 }
 
 .secao-09 > .content > h6{
-    color: #DCF2ED;
+    color: var(--color-light-gray);
 }
 
 .secao-09 > .content > h1{
     font-size: 30px;
-    color: var(--color-primary);
+    color: var(--color-white);
 }
 
 .secao-09 > .content > p{
     font-family: Catamaran;
     font-weight: 400;
     font-size: 18px;
-    color: var(--color-primary);
+    color: var(--color-white);
 }
 
 .secao-09 > .content > p > span{
@@ -763,11 +763,11 @@ header > nav > ul > li a:hover{
     height: 50px;
     border-radius: 10px;
     border: none;
-    color: var(--color-primary);
+    color: var(--color-white);
 }
 
 .secao-09 > .content > .submit > .inputs > input::placeholder{
-    color: var(--text-color-primary);
+    color: var(--color-white);
 }
 
 .secao-09 > .content > .submit > .inputs > input:focus{
@@ -786,7 +786,7 @@ header > nav > ul > li a:hover{
     width: 216px;
     height: 50px;
     border-radius: 10px;
-    color: var(--button-color);
+    color: var(--color-white);
     background-color: #2ECC71;
     border: none;
     cursor: pointer;
@@ -798,12 +798,12 @@ footer{
     z-index: 12;
     height: 50px;
     background-color: #d13232;
-    color: var(--text-color-primary);
+    color: var(--color-white);
 }
 
 footer > p{
     text-align: center;
     font-family: Mukta;
     font-size: 15px;
-    color: var(--text-color-primary);
+    color: var(--color-white);
 }

@@ -50,7 +50,7 @@
     }
 
     header > nav > ul{
-        background-color: red;
+        background-color:  var(--color-h6);;
         flex-direction: column;
         width: 100vw;
         gap: 0px;
