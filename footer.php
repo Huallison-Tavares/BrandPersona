@@ -23,6 +23,7 @@
     <p>Brand Persona - 2022 - Todos os direitos reservados</p>
 </footer>
 
+<?php do_action("get_theme_styles_js") ?>
 <?php wp_footer(); ?>
 </body>
 
