@@ -2,7 +2,8 @@
 
 ## - Introdução 
 
-Tema WordPress criado com base no site Brand-Persona, desenvolvivo com PHP, CSS e JS. 
+Tema WordPress criado com base no site Brand-Persona, desenvolvivo com PHP, HTML, CSS e JS. 
+Desafio propostos pela empresa PYXYS.
 
 ## - Functions
 
@@ -17,3 +18,9 @@ Tema WordPress criado com base no site Brand-Persona, desenvolvivo com PHP, CSS 
 
 #### - url_image
   - Retorna a url da pasta assets/img
+
+
+## - Organização
+
+#### - Arquivo header e footer
+#### - Pasta components contendo os arquivos de cada seção
